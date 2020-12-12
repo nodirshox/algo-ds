@@ -1,0 +1,14 @@
+ - bubbleSort
+ - insertionSort
+ - selectionSort
+ - quickSort
+ - mergeSort
+ - radixSort
+ - heapSort
+ - binarySearch
+ - quickSelect
+ - BFS
+ - DFS
+ - Prim's
+ - Kruskall
+ - Dijsktra
