@@ -1,3 +1,4 @@
+ - Arrays
  - Singly Linked List
  - Doubly Linked list
  - arrayList
