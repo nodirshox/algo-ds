@@ -1,3 +1,4 @@
+ + Big O
  - Arrays
  - Singly Linked List
  - Doubly Linked list
@@ -16,3 +17,6 @@
  - Trie
  - UnionFind (Disjoint Set)
  - Suffix trees
+ - Sets
+ - Maps
+ 
