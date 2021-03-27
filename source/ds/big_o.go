@@ -54,7 +54,7 @@ import "fmt"
 	N = 4   / 2
 	N = 2   / 2
 	N = 1   / 2
-	Let's look this in revers order. How many times we multiply 1 by 2 to get N?
+	Let's look this in reverse order. How many times we multiply 1 by 2 to get N?
 	N = 1
 	N = 2  /  *2
 	N = 4  /  *2
@@ -73,6 +73,18 @@ func sum(n int) int {
 	}
 
 	return n + sum(n-1)
+}
+
+func pairSumSequence(n int) int {
+	sum := 0
+	for i := 0; i < n; i++ {
+		sum += pairSum(i, i+1)
+	}
+	return sum
+}
+
+func pairSum(x int, y int) int {
+	return x + y
 }
 
 func binarySearch(n [9]int, x int, left int, right int) bool {
@@ -94,8 +106,12 @@ func main() {
 	result := sum(10)
 	fmt.Println(result)
 
+	pairSum := pairSumSequence(10)
+	fmt.Println(pairSum)
+
 	var numbers = [9]int{1, 5, 8, 9, 11, 13, 15, 19, 21}
 	var res bool
 	res = binarySearch(numbers, 12, 0, len(numbers)-1)
 	fmt.Println(res)
+
 }
