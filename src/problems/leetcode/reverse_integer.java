@@ -1,5 +1,7 @@
 class Solution {
     public int reverse(int x) {
+        // overflow is not counted
+        
         int reversed = 0;
         Boolean isPositive = false;
         
