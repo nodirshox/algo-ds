@@ -1,6 +1,7 @@
 package problems.easy;
 /*
     13.08.2021 - Nodirbek Ergashev
+    https://leetcode.com/problems/hamming-distance/
 */
 class Solution {
     public String addZero(String word, int max) {
