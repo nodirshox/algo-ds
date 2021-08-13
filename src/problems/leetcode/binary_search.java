@@ -1,3 +1,7 @@
+/*
+    12.08.2021 - Nodirbek Ergashev
+    https://leetcode.com/problems/binary-search/
+*/
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -12,12 +16,10 @@ class Solution {
             
             if (nums[mid] > target) {
                 right = mid - 1;
-                continue;
             }
             
             if (nums[mid] < target) {
                 left = mid + 1;
-                continue;
             }
         }
         
