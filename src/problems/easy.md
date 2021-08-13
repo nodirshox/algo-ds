@@ -1,7 +1,7 @@
-Source:
+**Source:**
 https://github.com/sherxon/AlgoDS
 
-1)**Hamming Distance**
+1) **Hamming Distance**
 The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
 Given two integers x and y, calculate the Hamming distance.
 
