@@ -4,13 +4,14 @@ package problems.easy;
 */
 class Solution {
     public String addZero(String word, int max) {
-        String tempString = word;
-        while (word.length() <= max) {
-            tempString = "0" + tempString;
+        public String addZero(String word, int max) {
+        int min = word.length();
+        while (min <= max) {
+            word = "0" + word;
             max--;
         }
         
-        return tempString;
+        return word;
     }
     public int hammingDistance(int x, int y) {
         String xString = Integer.toBinaryString(x);
