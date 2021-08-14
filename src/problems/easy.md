@@ -5,11 +5,11 @@ https://github.com/sherxon/AlgoDS
 The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
 Given two integers x and y, calculate the Hamming distance.
 
-2) **Single Number**
+2) **Single Number +**
 Given an array of integers, every element appears twice except for one. Find that single one.
 Note:Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-3)**Delete Node in a Linked List**
+3) **Delete Node in a Linked List**
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should become 1 -> 2 -> 4 after calling your function.
 
