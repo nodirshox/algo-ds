@@ -2,8 +2,9 @@ package src.problems.easy;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class TwoSum {
+public class twoSum {
     public static void main(String[] args) {
+        System.out.println("Two Number Sum");
         int[] input11 = { 3, 5, -4, 8, 11, 1, -1, 6 };
         int input12 = 10;
         int[] output11 = { -1, 11 };
