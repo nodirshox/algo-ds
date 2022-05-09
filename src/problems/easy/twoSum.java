@@ -1,34 +1,35 @@
 package src.problems.easy;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.HashMap;
 
 public class twoSum {
     public static void main(String[] args) {
         System.out.println("Two Number Sum");
         int[] input11 = { 3, 5, -4, 8, 11, 1, -1, 6 };
         int input12 = 10;
-        int[] output11 = { -1, 11 };
-        System.out.println(Arrays.equals(twoNumberSum(input11, input12), output11));
-        System.out.println(Arrays.equals(twoNumberSumSecondSolution(input11, input12), output11));
+        int[] output11 = { 4, 6 };
+        int[] output12 = { -1, 11 };
+        System.out.println(Arrays.equals(twoNumberSumReturnsIndexes(input11, input12), output11));
+        System.out.println(Arrays.equals(twoNumberSumReturnsValues(input11, input12), output12));
     }
-
-    public static int[] twoNumberSum(int[] array, int targetSum) {
-        int[] output = new int[2];
+    public static int[] twoNumberSumReturnsIndexes(int[] array, int target) {
+        HashMap<Integer, Integer> values = new HashMap<Integer, Integer>();
 
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if (i != j && array[i] + array[j] == targetSum) {
-                    output[0] = array[i];
-                    output[1] = array[j];
-                    break;
-                }
+            int current = array[i];
+            int difference = target - current;
+
+            if (values.containsKey(difference)) {
+                return new int[]{values.get(difference), i};
             }
+
+            values.put(current, i);
         }
 
-        return output;
+        return new int[0];
     }
-
-    public static int[] twoNumberSumSecondSolution(int[] array, int targetSum) {
+    public static int[] twoNumberSumReturnsValues(int[] array, int targetSum) {
         int[] output = new int[2];
 
         HashSet<Integer> sums = new HashSet<Integer>();
@@ -41,9 +42,9 @@ public class twoSum {
                 output[0] = element;
                 output[1] = theDifference;
                 break;
-            } else {
-                sums.add(element);
             }
+
+            sums.add(element);
         }
 
         return output;
