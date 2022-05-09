@@ -1,6 +1,6 @@
 package src.problems.easy;
 
-public class validateSequence {
+public class ValidateSequence {
     public static void main(String[] args) {
         System.out.println("Sorted Squared Array");
         int[] input = { 5, 1, 22, 25, 6, -1, 8, 10 };
