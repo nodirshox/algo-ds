@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.HashMap;
 
-public class twoSum {
+public class TwoSum {
     public static void main(String[] args) {
         System.out.println("Two Number Sum");
         int[] input11 = { 3, 5, -4, 8, 11, 1, -1, 6 };
