@@ -2,7 +2,7 @@ package src.problems.easy;
 
 import java.util.Arrays;
 
-public class sortedSquaredArray {
+public class SortedSquaredArray {
     public static void main(String[] args) {
         System.out.println("Sorted Squared Array");
         // there is a bug when passed negative number
