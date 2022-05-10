@@ -23,13 +23,11 @@ public class FinalValueOfVariableAfterPerformingOperations {
 
         for (int i = 0; i < operations.length; i++) {
             String current = operations[i];
-            if (current.equals(inc1) || current.equals(inc2)) {
+            if (current.equals(inc1) || current.equals(inc2))
                 result += 1;
-            }
 
-            if (current.equals(dec1) || current.equals(dec2)) {
+            if (current.equals(dec1) || current.equals(dec2))
                 result -= 1;
-            }
         }
 
         return result;
