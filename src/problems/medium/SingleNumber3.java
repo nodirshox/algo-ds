@@ -8,7 +8,7 @@ public class SingleNumber3 {
     public static void main(String[] args) {
         // https://leetcode.com/problems/single-number-iii/
         System.out.println("Single Number III");
-        int[] input = { 1,2,1,3,2,5 };
+        int[] input = { 1, 2, 1, 3, 2, 5 };
         int[] output = { 3, 5 };
 
         System.out.println(Arrays.equals(singleNumber(input), output));
