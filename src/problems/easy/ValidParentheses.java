@@ -27,9 +27,9 @@ public class ValidParentheses {
             }
 
             if (
-                    (thePeek == '(' && current == ')') ||
-                            (thePeek == '[' && current == ']') ||
-                            (thePeek == '{' && current == '}')
+                (thePeek == '(' && current == ')') ||
+                (thePeek == '[' && current == ']') ||
+                (thePeek == '{' && current == '}')
             ) {
                 stack.pop();
             } else {
