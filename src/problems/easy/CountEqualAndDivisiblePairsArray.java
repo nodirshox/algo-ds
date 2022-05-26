@@ -1,7 +1,5 @@
 package src.problems.easy;
 
-import java.util.HashMap;
-
 public class CountEqualAndDivisiblePairsArray {
     public static void main(String[] args) {
         // https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
