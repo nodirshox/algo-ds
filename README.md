@@ -4,3 +4,4 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 Data Structures
 
 - [HashTable](src/ds/hashTable)
+- [ArrayList](src/ds/arrayList)
