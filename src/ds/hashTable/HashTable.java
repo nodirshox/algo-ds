@@ -21,6 +21,12 @@ public class HashTable {
 		return data % 10;
 	}
 	
+	public int get(int key) {
+		int hash = calculateHash(key);
+		if (list[hash] == null) return -1;
+		return list[hash].search(key).data;
+	}
+	
 	public void display() {
 		for (LinkedList ls : list) {
 			if (ls != null) {

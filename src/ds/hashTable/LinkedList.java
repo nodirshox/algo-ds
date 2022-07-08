@@ -4,11 +4,11 @@ public class LinkedList {
 	Node tail;
 	Node head;
 	class Node {
-		int value;
+		int data;
 		Node next;
 		
-		Node(int value) {
-			this.value = value;
+		public Node(int data) {
+			this.data = data;
 			this.next = null;
 		}
 	}
@@ -33,10 +33,21 @@ public class LinkedList {
 		Node current = head;
 		
 		while(current != null) {
-			System.out.print(current.value + " -> ");
+			System.out.print(current.data + " -> ");
 			current = current.next;
 		}
 		System.out.println();
+	}
+	
+	public Node search(int data) {
+		if (isEmpty()) return null;
+		Node current = head;
+		
+		while(current != null) {
+			if (current.data == data) return current;
+			current = current.next;
+		}
+		return null;
 	}
 	
 	public boolean isEmpty() {

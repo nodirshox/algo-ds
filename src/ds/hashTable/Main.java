@@ -15,6 +15,7 @@ public class Main {
 		list.insert(5);
 		list.insert(9);
 		list.display();
+		System.out.println(list.search(5));
 		System.out.println("=== End ===\n");
 	}
 	
@@ -25,6 +26,7 @@ public class Main {
 		table.insert(54);
 		table.insert(94);
 		table.display();
+		System.out.println(table.get(54));
 		System.out.println("=== End ===\n");
 	}
 }
