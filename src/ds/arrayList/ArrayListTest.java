@@ -10,7 +10,7 @@ public class ArrayListTest {
         ArrayList list = new ArrayList();
         boolean actual = list.isEmpty();
         boolean expected = true;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class ArrayListTest {
         list.add(3);
         boolean actual = list.isEmpty();
         boolean expected = false;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class ArrayListTest {
         list.add(4);
         int actual = list.length();
         int expected = 2;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -39,7 +39,7 @@ public class ArrayListTest {
         list.add(4);
         int actual = list.get(1);
         int expected = 4;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class ArrayListTest {
         list.add(3);
         int actual = list.get(-1);
         int expected = -1;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -58,7 +58,7 @@ public class ArrayListTest {
         list.add(4);
         int actual = list.get(2);
         int expected = -1;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -68,7 +68,7 @@ public class ArrayListTest {
         list.add(4);
         boolean actual = list.contains(4);
         boolean expected = true;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -78,7 +78,7 @@ public class ArrayListTest {
         list.add(4);
         boolean actual = list.contains(5);
         boolean expected = false;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -88,7 +88,7 @@ public class ArrayListTest {
         list.add(4);
         int actual = list.indexOf(4);
         int expected = 1;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -98,7 +98,7 @@ public class ArrayListTest {
         list.add(4);
         int actual = list.indexOf(5);
         int expected = -1;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -109,11 +109,11 @@ public class ArrayListTest {
         list.clear();
         int actual = list.length();
         int expectedLength = 0;
-        assertEquals(actual, expectedLength);
+        assertEquals(expectedLength, actual);
 
         boolean actualCondition = list.isEmpty();
         boolean expectedCondition = true;
-        assertEquals(actualCondition, expectedCondition);
+        assertEquals(expectedCondition, actualCondition);
     }
 
     @Test
@@ -125,6 +125,6 @@ public class ArrayListTest {
 
         int actual = list.length();
         int expected = 11;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 }
