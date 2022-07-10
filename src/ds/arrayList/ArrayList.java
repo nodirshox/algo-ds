@@ -1,12 +1,12 @@
 package src.ds.arrayList;
 
 public class ArrayList {
-    int size = 10;
-    int[] list;
-    int capacity;
+    private final int INITIALIZE_SIZE = 10;
+    private int[] list;
+    private int capacity;
 
     public ArrayList() {
-        list = new int[size];
+        list = new int[INITIALIZE_SIZE];
         capacity = 0;
     }
 
@@ -17,7 +17,7 @@ public class ArrayList {
         list[capacity++] = data;
     }
 
-    public void resize() {
+    private void resize() {
         int[] temp = new int [list.length * 2];
         System.arraycopy(list, 0, temp, 0, capacity);
         list = temp;
@@ -35,8 +35,8 @@ public class ArrayList {
         System.out.println();
     }
 
-    public int getByIndex(int index) {
-        if (index < 0 || index > capacity) {
+    public int get(int index) {
+        if (index < 0 || index >= capacity) {
             System.out.println("Out of index");
             return -1;
         }
@@ -45,5 +45,34 @@ public class ArrayList {
 
     public boolean isEmpty() {
         return capacity == 0;
+    }
+
+    public int length() {
+        return capacity;
+    }
+
+    public boolean contains(int data) {
+        for(int element:list) {
+            if (element == data) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+    public int indexOf(int data) {
+        for (int i = 0; i < capacity; i++) {
+            if (list[i] == data) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    public void clear() {
+        int[] temp = new int[INITIALIZE_SIZE];
+        list = temp;
+        capacity = 0;
     }
 }
