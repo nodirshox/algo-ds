@@ -1,6 +1,7 @@
 package src.problems.crackingCodingInterview;
 import java.util.HashSet;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 /*
 
@@ -13,14 +14,16 @@ Space: O(1)
 
  */
 
-import static org.junit.Assert.assertEquals;
-
 public class IsUnique {
-    public boolean isUnique(String word) {
+    public boolean isUnique(String input) {
+        int length = input.length();
+
+        if (length == 0) return false;
+
         HashSet<Character> characters = new HashSet();
 
-        for (int index = 0; index < word.length(); index++) {
-            char current = word.charAt(index);
+        for (int index = 0; index < length; index++) {
+            char current = input.charAt(index);
             if(characters.contains(current)) {
                 return false;
             }
@@ -35,14 +38,30 @@ public class IsUnique {
         String input = "abcd";
         boolean actual = isUnique(input);
         boolean expected = true;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
-    public void testIsNotUnique() {
+    public void IsNotUnique() {
         String input = "abcdb";
         boolean actual = isUnique(input);
         boolean expected = false;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void withWhiteSpaces() {
+        String input = "a b c";
+        boolean actual = isUnique(input);
+        boolean expected = false;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void emptyString() {
+        String input = "";
+        boolean actual = isUnique(input);
+        boolean expected = false;
+        assertEquals(expected, actual);
     }
 }
