@@ -5,6 +5,7 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 
 - [HashTable](src/ds/hashTable)
 - [ArrayList](src/ds/arrayList)
+- [Stack](src/ds/stack/)
 
 ## Problems
 
