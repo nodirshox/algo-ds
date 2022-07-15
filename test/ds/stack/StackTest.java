@@ -1,7 +1,7 @@
-package src.ds.stack;
+package test.ds.stack;
 
 import org.junit.Test;
-
+import src.ds.stack.Stack;
 import static org.junit.Assert.assertEquals;
 
 public class StackTest {

@@ -1,7 +1,7 @@
-package src.ds.arrayList;
+package test.ds.arrayList;
 
 import org.junit.Test;
-
+import src.ds.arrayList.ArrayList;
 import static org.junit.Assert.assertEquals;
 
 public class ArrayListTest {
