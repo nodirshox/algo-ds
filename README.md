@@ -12,3 +12,4 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 ### Cracking The Coding Interview
 
 - [1.1 Is Unique](src/problems/crackingCodingInterview/IsUnique.java)
+- [1.2 Check Permutation](src/problems/crackingCodingInterview/CheckPermutation.java)
