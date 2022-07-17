@@ -1,5 +1,16 @@
 package src.problems.crackingCodingInterview;
 
+/*
+Problem 1.3
+URLify
+Replace all whitespace with '%20'. The original input size provided. User char array as input to
+perform operation in place
+
+Example:
+Input: "Mr John Smith    ", 13
+Output: "Mr%20John%20Smith";
+
+ */
 public class URLify {
     public static char[] convert(char[] str, int trueLength) {
         int emptySpaces = 0;
