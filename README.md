@@ -20,3 +20,4 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 ### LeetCode
 
 - [242. Valid Anagram](src/problems/easy/ValidAnagram.java)
+- [1. Two Sum](src/problems/easy/TwoSum.java)
