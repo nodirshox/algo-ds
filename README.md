@@ -21,3 +21,7 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 
 - [242. Valid Anagram](src/problems/easy/ValidAnagram.java)
 - [1. Two Sum](src/problems/easy/TwoSum.java)
+
+### Educative
+#### Sliding Window
+- [Average Of Subarray Of Size K](src/problems/educative/sliding_window/AverageOfSubarrayOfSizeK.java)
