@@ -5,7 +5,7 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 
 - [HashTable](src/ds/hashTable)
 - [ArrayList](src/ds/arrayList)
-- [Stack](src/ds/stack/)
+- [Stack](src/ds/stack)
 
 ## Problems
 
@@ -22,6 +22,7 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 - [1. Two Sum](src/problems/easy/TwoSum.java)
 - [121. Best Time to Buy and Sell Stock](src/problems/easy/Stock.java)
 - [217. Contains Duplicate](src/problems/easy/ContainsDuplicate.java)
+- [219. Contains Duplicate II](src/problems/easy/ContainsDuplicateTwo.java)
 - [242. Valid Anagram](src/problems/easy/ValidAnagram.java)
 
 ### Educative
