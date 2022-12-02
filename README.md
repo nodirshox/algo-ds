@@ -19,9 +19,10 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 
 ### LeetCode
 
-- [242. Valid Anagram](src/problems/easy/ValidAnagram.java)
 - [1. Two Sum](src/problems/easy/TwoSum.java)
 - [121. Best Time to Buy and Sell Stock](src/problems/easy/Stock.java)
+- [217. Contains Duplicate](src/problems/easy/ContainsDuplicate.java)
+- [242. Valid Anagram](src/problems/easy/ValidAnagram.java)
 
 ### Educative
 #### Sliding Window
