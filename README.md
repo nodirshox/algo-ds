@@ -25,4 +25,4 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 
 ### Educative
 #### Sliding Window
-- [Average Of Subarray Of Size K](src/problems/educative/sliding_window/AverageOfSubarrayOfSizeK.java)
+- [Average Of Subarray Of Size K](src/problems/educative/slidingWindow/AverageOfSubarrayOfSizeK.java)
