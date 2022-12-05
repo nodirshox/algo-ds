@@ -28,3 +28,7 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 ### Educative
 #### Sliding Window
 - [Average Of Subarray Of Size K](src/problems/educative/slidingWindow/AverageOfSubarrayOfSizeK.java)
+
+#### Two Pointers
+- [Pair With Target Sum](src/problems/educative/twoPointers/PairWithTargetSumEasy.java)
+
