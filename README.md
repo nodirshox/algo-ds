@@ -1,6 +1,9 @@
 # Algorithm and Data Structures
 Algorithm and Data Structure problems and solutions for learning purpose in Java language.
 
+## Algorithms
+- [Binary Search](src/algorithms/BinarySearch.java)
+
 ## Data Structures
 
 - [HashTable](src/ds/hashTable)
