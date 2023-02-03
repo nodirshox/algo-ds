@@ -33,5 +33,5 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 - [Average Of Subarray Of Size K](src/problems/educative/slidingWindow/AverageOfSubarrayOfSizeK.java)
 
 #### Two Pointers
-- [Pair With Target Sum](src/problems/educative/twoPointers/PairWithTargetSumEasy.java)
+- [Pair With Target Sum](src/problems/educative/twoPointers/PairWithTargetSum.java)
 
