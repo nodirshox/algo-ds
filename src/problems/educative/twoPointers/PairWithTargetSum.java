@@ -4,7 +4,7 @@ package src.problems.educative.twoPointers;
 * Given an array of sorted numbers and a target sum,
 * find a pair in the array whose sum is equal to the given target.
 * */
-public class PairWithTargetSumEasy {
+public class PairWithTargetSum {
     public int[] solution(int[] nums, int target) {
 
         int left = 0;
