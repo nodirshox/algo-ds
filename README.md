@@ -3,6 +3,7 @@ Algorithm and Data Structure problems and solutions for learning purpose in Java
 
 ## Algorithms
 - [Binary Search](src/algorithms/BinarySearch.java)
+- [Selection Sort](src/algorithms/SelectionSort.java)
 
 ## Data Structures
 
