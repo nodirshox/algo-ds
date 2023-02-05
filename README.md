@@ -1,9 +1,10 @@
 # Algorithm and Data Structures
-Algorithm and Data Structure problems and solutions for learning purpose in Java language.
+Algorithm and Data Structure solutions for learning purpose in Java language.
 
 ## Algorithms
 - [Binary Search](src/algorithms/BinarySearch.java)
 - [Selection Sort](src/algorithms/SelectionSort.java)
+- [Divide And Conquer Examples](src/algorithms/DivideAndConquerExample.java)
 
 ## Data Structures
 
